@@ -8,4 +8,4 @@ Coupled with **lambdas**, which provide a cleaner and more compact implementatio
 
   1.1 _HelloFunctionalInterface_ : **a custom functional interface** used to illustrate how to work with them and compare the use of lambdas to the tradiotional **_anonymous class_**. The functional interface provides an abstract method **to say hello**.
 
-  1.1 _PredicateMain_ : a sample demonstrating the use of Java's **Predicate** functional interface. It provides a method called test that takes an object as a parameter and returns a boolean. 
+  1.1 _PredicateMain_ : a sample demonstrating the use of Java's **Predicate** functional interface. It provides an abstract method called **test** that takes an object as a parameter and returns a boolean. 
