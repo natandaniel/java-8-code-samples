@@ -1,4 +1,4 @@
-package fr.ndaniel.java;
+package custom.functional.interf;
 
 public class HelloMain {
 	

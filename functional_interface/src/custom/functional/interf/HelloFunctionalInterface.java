@@ -1,4 +1,4 @@
-package fr.ndaniel.java;
+package custom.functional.interf;
 
 @FunctionalInterface
 public interface HelloFunctionalInterface {
