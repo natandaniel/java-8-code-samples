@@ -1,4 +1,4 @@
-package predicate.functional.interf;
+package predicate;
 
 import java.util.function.Predicate;
 

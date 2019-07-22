@@ -1,4 +1,4 @@
-package predicate.functional.interf;
+package predicate;
 
 public class Cat {
 	

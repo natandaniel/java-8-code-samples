@@ -1,4 +1,4 @@
-package custom.functional.interf;
+package hello;
 
 @FunctionalInterface
 public interface HelloFunctionalInterface {
