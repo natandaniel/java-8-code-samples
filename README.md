@@ -1,2 +1,2 @@
-# java_8_samples
-Java 8 features
+# In this repository, I explore and try out Java 8 specific features.
+
