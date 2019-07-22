@@ -1,6 +1,6 @@
 # In this repository, I explore and try out Java 8 specific features.
 
-## Functional Interface 
+## [Functional Interface](https://github.com/natandaniel/java_8_samples/tree/master/functional_interface/src/fr/ndaniel/java)
 
 A **single abstract method interface**, with as many default and static methods, is called **a functional interface**. 
 Java 8 provides a way of declaring an interface as a functional interface with the **_@FunctionalInterface_** annotation.
