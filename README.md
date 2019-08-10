@@ -1,4 +1,4 @@
-# In this repository, I explore and try out Java 8 specific features.
+# Java 8 Features
 
 ## [Functional Interface](https://github.com/natandaniel/java_8_samples/tree/master/functional_interface/src/)
 
