@@ -1,1 +1,2 @@
-[_Predicate_](https://github.com/natandaniel/java_8_samples/tree/master/functional_interface/src/predicate) : a sample demonstration of Java's **Predicate** functional interface. It provides an abstract method called **test** that takes an object as a parameter and returns a boolean. 
+## _Predicate_
+A sample demonstration of Java's **Predicate** functional interface. It provides an abstract method called **test** that takes an object as a parameter and returns a boolean. 
