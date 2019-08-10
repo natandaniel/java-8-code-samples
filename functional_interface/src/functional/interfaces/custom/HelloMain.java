@@ -1,4 +1,4 @@
-package hello;
+package functional.interfaces.custom;
 
 public class HelloMain {
 	
