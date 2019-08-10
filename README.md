@@ -10,4 +10,4 @@ Coupled with **lambdas**, which provide a cleaner and more compact implementatio
 
 ## [Method References](https://github.com/natandaniel/java8/tree/master/java_8_features/src/method/references)
 
-Method references provide a way to refer to class static methods or instance methods and provide functional interface implementations without using lambdas.
+Method references provide a way to refer to class static methods or instance methods and provide functional interfaces with implementations without using lambdas.
