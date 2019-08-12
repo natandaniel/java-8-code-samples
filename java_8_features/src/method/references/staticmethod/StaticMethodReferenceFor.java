@@ -4,7 +4,7 @@ package method.references.staticmethod;
  * Java 8's static method reference can be used as an alternative to lambdas to
  * provide functional interface implementations.
  */
-public class StaticMethodReferenceForFunctionalInterfaces {
+public class StaticMethodReferenceFor {
 
 	@FunctionalInterface
 	interface HelloFunctionalInterface {
@@ -16,7 +16,7 @@ public class StaticMethodReferenceForFunctionalInterfaces {
 
 		HelloFunctionalInterface helloInFrenchWithLambda = (name) -> "Bonjour " + name;
 
-		HelloFunctionalInterface helloInEnglishWithStaticMethodReference = StaticMethodReferenceForFunctionalInterfaces::sayHello;
+		HelloFunctionalInterface helloInEnglishWithStaticMethodReference = StaticMethodReferenceFor::sayHello;
 
 		System.out.println(helloInFrenchWithLambda.sayHelloTo("Monde"));
 

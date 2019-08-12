@@ -5,7 +5,7 @@ package method.references.staticmethod;
  * provide functional interface implementations.
  *
  */
-public class InstanceMethodReferenceForFunctionalInterfaces {
+public class InstanceMethodReference {
 	
 	@FunctionalInterface
 	interface HelloFunctionalInterface {
@@ -19,13 +19,13 @@ public class InstanceMethodReferenceForFunctionalInterfaces {
 	
 	public static void main(String[] args) {
 		
-		InstanceMethodReferenceForFunctionalInterfaces myInstance = new InstanceMethodReferenceForFunctionalInterfaces();
+		InstanceMethodReference myInstance = new InstanceMethodReference();
 		
 		HelloFunctionalInterface helloWithInstanceMethodReference = myInstance::helloInstanceMethod;
 		
 		System.out.println(helloWithInstanceMethodReference.sayHelloTo("World"));
 		
-		HelloFunctionalInterface  helloWithAnnonymousObjectInstanceMethodReference = new InstanceMethodReferenceForFunctionalInterfaces()::helloInstanceMethod;
+		HelloFunctionalInterface  helloWithAnnonymousObjectInstanceMethodReference = new InstanceMethodReference()::helloInstanceMethod;
 		
 		System.out.println(helloWithAnnonymousObjectInstanceMethodReference.sayHelloTo("World"));
 	}
