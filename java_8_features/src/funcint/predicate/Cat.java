@@ -1,4 +1,4 @@
-package functional.interfaces.predicate;
+package funcint.predicate;
 
 public class Cat {
 	
