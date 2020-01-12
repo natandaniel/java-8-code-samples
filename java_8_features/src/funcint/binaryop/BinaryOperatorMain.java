@@ -1,6 +1,5 @@
 package funcint.binaryop;
 
-import java.util.Comparator;
 import java.util.function.BiFunction;
 import java.util.function.BinaryOperator;
 
