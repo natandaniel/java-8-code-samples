@@ -3,22 +3,16 @@ package functional.interfaces.predicate;
 public class Cat {
 	
 	private String name;
-	private int age;
+	private float age;
 	
-	public Cat(String name, int age) {
+	public Cat(String name, float age) {
 		this.name = name;
 		this.age = age;
 	}
 	public String getName() {
 		return name;
 	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public int getAge() {
+	public float getAge() {
 		return age;
-	}
-	public void setAge(int age) {
-		this.age = age;
 	}
 }
