@@ -1,6 +1,9 @@
 package comparator;
 
 import java.util.Comparator;
+import java.util.function.Function;
+
+import common.Point;
 
 /**
  * This code sample illustrates one of the {@link Comparator} interface's new
@@ -42,28 +45,5 @@ class ComparatorExample {
 		isTrueIfComparatorsOk = byX.compare(p1, p2) < 0 && byY.compare(p1, p2) > 0;
 
 		System.out.println("Comparators work as expected (method reference version) : " + isTrueIfComparatorsOk);
-	}
-	
-	/**
-	 * Represents a point in a 2-D space, characterized by its coordinates x and y.
-	 *
-	 */
-	static class Point {
-
-		private Double x;
-		private Double y;
-
-		public Point(Double x, Double y) {
-			this.x = x;
-			this.y = y;
-		}
-
-		public Double getX() {
-			return x;
-		}
-
-		public Double getY() {
-			return y;
-		}
 	}
 }
