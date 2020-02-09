@@ -14,4 +14,4 @@ Method references provide a way to refer to class static methods or instance met
 
 ## [Streams](https://github.com/natandaniel/java-8-code-samples/tree/master/src/main/java/stream)
 
-Streams enable us to manipulate collections with creating intermediary storage. Java 8 introduces many stream functions allowing to map, filter or sort elements in collections. 
+Streams enable us to manipulate collections without creating intermediary storage. Java 8 introduces many stream functions allowing to map, filter or sort elements in collections. 
