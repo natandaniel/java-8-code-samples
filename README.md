@@ -1,4 +1,4 @@
-# Java 8 Features
+# Java 8 Code Samples
 
 ## [Lambdas](https://github.com/natandaniel/java8/tree/master/java_8_features/src/lambdas)
 
